@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUICommandLine", "GUICommandLine\GUICommandLine.csproj", "{347CF2B8-8F11-48F1-908F-794AF5F208E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUICommandLineTest", "GUICommandLineTest\GUICommandLineTest.csproj", "{CA663DBE-1816-4BCD-AA5E-46A9F2E521AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{347CF2B8-8F11-48F1-908F-794AF5F208E8} = {347CF2B8-8F11-48F1-908F-794AF5F208E8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{347CF2B8-8F11-48F1-908F-794AF5F208E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347CF2B8-8F11-48F1-908F-794AF5F208E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347CF2B8-8F11-48F1-908F-794AF5F208E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347CF2B8-8F11-48F1-908F-794AF5F208E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA663DBE-1816-4BCD-AA5E-46A9F2E521AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA663DBE-1816-4BCD-AA5E-46A9F2E521AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA663DBE-1816-4BCD-AA5E-46A9F2E521AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA663DBE-1816-4BCD-AA5E-46A9F2E521AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CCDD278-3145-42A0-B973-8FB829ABFF92}
+	EndGlobalSection
+EndGlobal
